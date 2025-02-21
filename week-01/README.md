@@ -15,6 +15,8 @@ $$\frac{\text{Birim daire iç​indeki noktalar}}{\text{Toplam noktalar}} \appro
 
 <h3>💻 Python Koduyla Örnek</h3>
 
+<p align="justify">Aşağıdaki kodun koşturulmasını ve yorumunu izlemek için <a href="https://youtube.com">tıklayınız</a>.</p>
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
