@@ -15,18 +15,18 @@ $$\frac{\text{Birim daire iç​indeki noktalar}}{\text{Toplam noktalar}} \appro
 
 <h3>💻 Python Koduyla Örnek</h3>
 
-<p align="justify">Aşağıdaki kodun koşturulmasını ve yorumunu izlemek için <a href="https://youtube.com">tıklayınız</a>.</p>
+<p align="justify">Aşağıdaki kodun koşturulmasını ve yorumunu izlemek için <a href="https://www.youtube.com/watch?v=uY9mXSJkxpw">tıklayınız</a>.</p>
 
 ```
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Simülasyon için nokta sayısı
-num_points = 10000
+n = 10000
 
 # [-1, 1] aralığında rastgele x ve y koordinatları üret
-x = np.random.uniform(-1, 1, num_points)
-y = np.random.uniform(-1, 1, num_points)
+x = np.random.uniform(-1, 1, n)
+y = np.random.uniform(-1, 1, n)
 
 # Noktaların orijine olan mesafesi (r^2 = x^2 + y^2)
 distances = x**2 + y**2
@@ -35,7 +35,7 @@ distances = x**2 + y**2
 inside_circle = distances <= 1
 
 # Pi tahmini: 4 * (çeyrek daire içindeki noktalar / toplam noktalar)
-pi_estimate = 4 * np.sum(inside_circle) / num_points
+pi_estimate = 4 * np.sum(inside_circle) / n
 
 print(f"Tahmini Pi: {pi_estimate:.4f}")
 
@@ -45,7 +45,7 @@ plt.scatter(x[inside_circle], y[inside_circle], color='green', s=1, label='Daire
 plt.scatter(x[~inside_circle], y[~inside_circle], color='red', s=1, label='Dairenin Dışındaki Noktalar')
 circle = plt.Circle((0, 0), 1, edgecolor='blue', fill=False, linewidth=2, label='Çeyrek Daire')
 plt.gca().add_patch(circle)
-plt.title(f"Monte Carlo ile Pi Tahmini: {pi_estimate:.4f}")
+plt.title(f"MCS ile Pi sayısı tahmini: {pi_estimate:.4f} | n = {n}")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.axis('equal')
