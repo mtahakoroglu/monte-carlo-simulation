@@ -11,7 +11,7 @@
 
 <h3>📊 Formül</h3>
 
-$$\frac{\text{Birim daire iç​indeki noktalar}}{\text{Toplam noktalar}} \approx \frac{\pi}{4} \rightarrow \pi \approx 4 \times \frac{\text{İçerideki noktalar}}{\text{Toplam noktalar}}$$
+$$\frac{\text{Birim daire iç​indeki noktalar}}{\text{Toplam noktalar}} \approx \frac{\pi}{4} \Rightarrow \pi \approx 4 \times \frac{\text{İçerideki noktalar}}{\text{Toplam noktalar}}$$
 
 <h3>💻 Python Koduyla Örnek</h3>
 
@@ -48,12 +48,15 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.axis('equal')
 plt.legend()
+plt.axis('tight')
+plt.tight_layout()
+plt.savefig("pi-estimation.png", dpi=300)
 plt.show()
 ```
 
 <h3>🧪 Kodun Çalışma Mantığı:</h3>
 <ul>
-    <li><b>num_points</b> kadar rastgele nokta üretilir.</li>
+    <li><b>n</b> kadar rastgele nokta üretilir.</li>
     <li>Her noktanın orijine uzaklığı hesaplanır.</li>
     <li>Uzaklığı 1 veya daha az olan noktalar dairenin içindedir.</li>
     <li>İçerideki nokta oranı ile 𝞹 tahmini yapılır.</li>
@@ -61,3 +64,6 @@ plt.show()
 </ul>
 
 <img src="pi-estimation.png" alt="monte carlo simülasyonu ile pi sayısı tahmini" width="500" height=auto>
+
+<h3>Referanslar</h3>
+<p align="justify">[1] https://www.mehmetalikucuk.com/genel/kare-daire-olasilik-ve-pi-sayisi/</p>
