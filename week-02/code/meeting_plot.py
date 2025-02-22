@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Simülasyon için nokta sayısı
-n_sim = 500
+n_sim = 10000
 
 # Rastgele geliş zamanları (0-60 dk)
 arrival_A = np.random.uniform(0, 60, n_sim)
