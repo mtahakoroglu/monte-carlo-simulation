@@ -1,6 +1,6 @@
 <h2>İki Arkadaşın Buluşma Olasılığı 🫂</h2>
 
-<p align="justify">Monte Carlo simülasyonunu daha iyi anlamak için iki arkadaşın buluşma olasılığını hesapladığımız bir başka örneğe bakalım:</p>
+<p align="justify">Monte Carlo simülasyonunu daha iyi anlamak için iki arkadaşın buluşma olasılığını hesapladığımız bir başka örneğe [1] bakalım:</p>
 
 <b>Instructor 👨‍🏫</b>
 
