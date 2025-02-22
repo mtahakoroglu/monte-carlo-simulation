@@ -46,11 +46,11 @@ $$X−Y=15$$
 
 <p align="justify">Gri alanın karenin alanına oranını hesaplarsak arkadaşların buluşma olasılığını bulmuş oluruz:</p>
 
-$$P(M) = \frac{(60 \times 60) - (45 \times 45)}{60 \times 60} = 0.4375 \Rightarrow \%43.75$$
+$$P(M) = \frac{(60 \times 60) - (45 \times 45)}{60 \times 60} = 0.4375$$
 
-<p align="justify">Burada $M$ harfi buluşma mânâsına gelen "meeting" kelimesinin yerine kullanılırken, $P$ ise olasılık mânâsına gelen "probability" yerine kullanılmıştır. Dolayısıyla $P(M)$ arkadaşların buluşma olasılığı yerien kullanılmıştır.</p>
+<p align="justify">Burada $M$ harfi buluşma mânâsına gelen "meeting" kelimesinin yerine kullanılırken, $P$ ise olasılık mânâsına gelen "probability" yerine kullanılmıştır. Dolayısıyla $P(M)$ arkadaşların buluşma olasılığı anlamına gelmektedir.</p>
 
-<b>Intructor 👨‍🏫</b>
+<b>Instructor 👨‍🏫</b>
 
 <p align="justify">Peki bu iki arkadaşın buluşma olasılığını Python'da <b>numpy</b> ile rasgele sayı üreteci kullanarak, yâni Monte Carlo simülasyonu ile nasıl çözebilirim?</p>
 
@@ -97,7 +97,7 @@ bulusma_olasiligi()
 
 <h3>Görsellik İçeren Kod 🌈</h3>
 
-<p align="justify">Aşağıdaki kodun koşturulmasını ve yorumunu izlemek için <a href="https://www.youtube.com/watch?v=uY9mXSJkxpw">tıklayınız</a>.</p>
+<p align="justify">Aşağıdaki kodun koşturulmasını ve yorumunu izlemek için <a href="https://www.youtube.com/watch?v=8aBywUP7tTM">tıklayınız</a>.</p>
 
 <b>meeting_plot.py</b>
 
