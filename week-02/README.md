@@ -72,10 +72,10 @@ $$P(M) = \frac{(60 \times 60) - (45 \times 45)}{60 \times 60} = 0.4375$$
 ```
 import numpy as np
 
-def bulusma_olasiligi(n_sim=10000):
+def bulusma_olasiligi(n=10000):
     # Arkadaşların geliş zamanlarını (0-60 dk) rastgele seç
-    arrival_A = np.random.uniform(0, 60, n_sim)
-    arrival_B = np.random.uniform(0, 60, n_sim)
+    arrival_A = np.random.uniform(0, 60, n)
+    arrival_B = np.random.uniform(0, 60, n)
 
     # Mutlak farkları al ve 15 dakikadan küçük olanları say
     bulusanlar = np.abs(arrival_A - arrival_B) <= 15
@@ -84,7 +84,7 @@ def bulusma_olasiligi(n_sim=10000):
     return np.mean(bulusanlar)
 
 # Simülasyonu çalıştır
-bulusma_olasiligi()
+print(bulusma_olasiligi())
 ```
 
 <b>Intructor 👨‍🏫</b>
@@ -106,11 +106,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Simülasyon için nokta sayısı
-n_sim = 10000
+n = 10000
 
 # Rastgele geliş zamanları (0-60 dk)
-arrival_A = np.random.uniform(0, 60, n_sim)
-arrival_B = np.random.uniform(0, 60, n_sim)
+arrival_A = np.random.uniform(0, 60, n)
+arrival_B = np.random.uniform(0, 60, n)
 
 # Buluşma sağlanan noktalar (mavi) ve sağlanamayanlar (kırmızı)
 meet_condition = np.abs(arrival_A - arrival_B) <= 15
@@ -130,11 +130,11 @@ plt.xlim(0, 60)
 plt.ylim(0, 60)
 plt.xlabel("Arkadaş A'nın Geliş Zamanı (dakika)")
 plt.ylabel("Arkadaş B'nin Geliş Zamanı (dakika)")
-plt.title(f"Arkadaşların Buluşma Olasılığı {sum(meet_condition)}/{n_sim}={np.mean(meet_condition)}") # sum(meet_condition)/n_sim
+plt.title(f"Arkadaşların Buluşma Olasılığı {sum(meet_condition)}/{n}={np.mean(meet_condition)}") # sum(meet_condition)/n
 plt.legend()
 plt.grid(True, linestyle='--')
 plt.tight_layout()
-plt.savefig(f"meeting_plot_n_{n_sim}.png", dpi=600)
+plt.savefig(f"meeting_plot_n_{n}.png", dpi=600)
 plt.show()
 ```
 
