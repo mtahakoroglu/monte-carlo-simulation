@@ -29,4 +29,4 @@ fizik gibi alanlarda kullanılır.</p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-01">Hafta 1: 📝 Pi Sayısını Tahmin Etme</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-02">Hafta 2: 🫂 İki arkadaşın buluşma olasılığı</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-03">Hafta 3: 🧑‍🤝‍🧑 İki kardeşin yanyana gelme olasılığı</a></p>
-<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-03">Hafta 4: 💻 Uygulama (LAB)</a></p>
+<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-04">Hafta 4: 💻 Uygulama (LAB)</a></p>
