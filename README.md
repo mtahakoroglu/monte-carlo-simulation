@@ -24,8 +24,9 @@ fizik gibi alanlarda kullanılır.</p>
 </ul>
 
 <h3>💻 Nasıl Monte Carlo Simülasyonu Yapacağız?</h3>
-<p align="justify">Bilgisayarların işlemcilerinde (cpu veya gpu) sayıcılar (counter) veya zamanlayıcılar (timer) denilen birimler vardır. Burada rasgele sayı üreteci (random number generator) yardımıyla bu simülasyonlar yapılabilir. Bütün programlama dilleriyle rasgele sayı üretilebilir ancak biz burada <b>Python</b>'da <b>numpy</b> paketiyle rasgele sayı üreterek Monte Carlo simülasyonu yapacağız. Bazı problemlerde sonuçları <b>matplotlib</b> paketi ile görselleştireceğiz.</p>
+<p align="justify">Bilgisayarların işlemcilerinde (cpu veya gpu) sayıcılar (counter) veya zamanlayıcılar (timer) denilen birimler vardır. Burada rasgele sayı üreteci (random number generator) yardımıyla bu simülasyonlar yapılabilir. Bütün programlama dilleriyle rasgele sayı üretilebilir ancak biz burada <b>Python</b>'da <b>numpy</b> paketinin <b>random</b> sınıfında tanımlı <b>uniform()</b>, <b>randint()</b>, <b>shuffle()</b>, <i>vb.</i> gibi fonksiyonları kullanarak rasgele sayı üretecek ve böylece Monte Carlo simülasyonları yapacağız. Ayrıca uygun olan bazı problemlerde sonuçları <b>matplotlib</b> paketi ile görselleştireceğiz.</p>
 
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-01">Hafta 1: 📝 Pi Sayısını Tahmin Etme</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-02">Hafta 2: 🫂 İki arkadaşın buluşma olasılığı</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-03">Hafta 3: 🧑‍🤝‍🧑 İki kardeşin yanyana gelme olasılığı</a></p>
+<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-03">Hafta 4: 💻 Uygulama (LAB)</a></p>
