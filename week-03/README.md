@@ -22,9 +22,9 @@ $$P(Y) = \frac{2}{90}+\frac{16}{90} = \frac{18}{90} = 0.2$$
 
 <p align="justify">Bu ifadelerde geçen $|$ işareti koşullu olasılığı temsil etmektedir. Mesela, $Y|K$ demek ilk kardeş kenara geldiğinde öbür kardeşin onun yanına gelmesini belirtmektedir.</p>
 
-<b>Nümerik Çözüm 💻</b>
+<b>Nümerik Çözüm 💻📊🧮</b>
 
-<p align="justify">ChatGPT'ye bu problemi verip bize Monte Carlo çözümünü üretmesini istediğimizde, aşağıdaki kodu bize verecektir. Kodda, <b>numpy</b> paketinde yer alan <b>random</b> isimli sınıf ait <b>shuffle</b> fonksiyonunun mânâsı "karıştır" veya daha doğru bir tabirle "(kartları) <b>kar</b>(ıştır)" demektir.</p>
+<p align="justify">ChatGPT'ye bu problemi verip bize Monte Carlo çözümünü üretmesini istediğimizde, aşağıdaki kodu bize verecektir. Kodda, <b>numpy</b> paketinde yer alan <b>random</b> isimli sınıf ait <b>shuffle()</b> fonksiyonunun mânâsı "karıştır" veya daha doğru bir tabirle "(kartları) <b>kar</b>(ıştır)" demektir. Kodun koşturulmasını ve açıklamasını izlemek için <a href="https://www.youtube.com/watch?v=UgJL_WuztS4">tıklayınız</a>.</p>
 
 <b>kardesler_yanyana.py</b>
 
