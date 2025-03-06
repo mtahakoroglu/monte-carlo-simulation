@@ -9,14 +9,17 @@ Bugüne kadar Monte Carlo simülasyonları yaparken <b>numpy</b> paketinin <b>ra
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
-<p align="justify">🔩🔩🔩 Vidaların çapı $X \tilde N(5,0.12)$ dağılımıyla modellendiği için, standart normal değişkene dönüştürelim:</p>
+<p align="justify">Vidaların çapı</p>
+
+$$X \tilde N(5,0.12)$$ 
+
+<p align="justify">dağılımıyla modellendiği için, standart normal değişkene dönüştürelim:</p>
 
 $$P(4.9 \leq X \leq 5.1) = P\left(\frac{4.9 - 5}{0.1} \leq Z \leq \frac{5.1 - 5}{0.1} \right)$$
 
 $$= P(-1 \leq Z \leq 1)$$
 
-
-<p align="justify">Standart normal dağılım tablosundan</p>
+<p align="justify">Bu değerleri standart normal dağılım tablosundan faydalanarak</p>
 
 $$P(Z \leq 1) \approx 0.8413$$
 
@@ -107,6 +110,8 @@ plt.grid()
 # Show the plot
 plt.show()
 ```
+
+<img src="figure/screws.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="500" height="auto">
 
 <h3>🔍 Grafiğin Açıklaması</h3>
 
