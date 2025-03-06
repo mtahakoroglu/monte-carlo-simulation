@@ -1,15 +1,15 @@
-<h2>Fabrikada Üretilen Vidaların Müşteri Tarafından Kabul Edilebilme Olasılığı 🫂</h2>
+<h2>Fabrikada Üretilen Vidaların Müşteri Tarafından Kabul Edilebilme Olasılığı 🔩</h2>
 
 <p align="justify"><b>👨‍🏫 Instructor</b> Selam ChatGPT,<br>
 Bugüne kadar Monte Carlo simülasyonları yaparken <b>numpy</b> paketinin <b>random</b> sınıfından <b><i>uniform()</i></b> ve <i></b>shuffle()</i></b> isimli fonksiyonlarını kullandık. Matematiksel çözümü elde edilebilen (belki Normal dağılım tablosu yardımıyla) ama aynı zamanda normal dağılım fonksiyonu kullanarak Monte Carlo simülasyonuyla da cevabı bulunabilen bir olasılık/istatistik sorusu bana örnek verebilir misin?</p>
 
 <p align="justify"><b>💻 ChatGPT</b> Selam! Güzel bir soru. Aşağıda, hem matematiksel olarak çözülebilen hem de normal dağılım kullanarak Monte Carlo simülasyonu ile yaklaşık olarak bulunabilen bir olasılık sorusu veriyorum:</p>
 
-<p align="justify"><b>📝 Soru:</b> Bir fabrika, ürettiği vidaların çaplarının $N(\mu, \sigma^2) = N(5, 0.12)$ (yani ortalama 5mm, standart sapma 0.1mm olan normal dağılım) ile dağıldığını iddia etmektedir. Bir müşteri, çapı 4.9mm ile 5.1mm arasında olan vidaların kabul edilebilir olduğunu belirtmiştir. Buna göre fabrika tarafından üretilen vidaların müşteri tarafından kabul edilebilir olma olasılığı nedir?</p>
+<p align="justify"><b>📝 Soru:</b> Bir fabrika, ürettiği vidaların 🔩 çaplarının $N(\mu, \sigma^2) = N(5, 0.12)$ (yani ortalama 5mm, standart sapma 0.1mm olan normal dağılım) ile dağıldığını iddia etmektedir. Bir müşteri, çapı 4.9mm ile 5.1mm arasında olan vidaların kabul edilebilir olduğunu belirtmiştir. Buna göre fabrika tarafından üretilen vidaların müşteri tarafından kabul edilebilir olma olasılığı nedir?</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
-<p align="justify">Vidaların çapı $X \tilde N(5,0.12)$ dağılımıyla modellendiği için, standart normal değişkene dönüştürelim:</p>
+<p align="justify">🔩🔩🔩 Vidaların çapı $X \tilde N(5,0.12)$ dağılımıyla modellendiği için, standart normal değişkene dönüştürelim:</p>
 
 $$P(4.9 \leq X \leq 5.1) = P\left(\frac{4.9 - 5}{0.1} \leq Z \leq \frac{5.1 - 5}{0.1} \right)$$
 
