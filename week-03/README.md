@@ -24,7 +24,7 @@ $$P(Y) = \frac{2}{90}+\frac{16}{90} = \frac{18}{90} = 0.2$$
 
 <b>Nümerik Çözüm 💻📊🧮</b>
 
-<p align="justify">ChatGPT'ye bu problemi verip bize Monte Carlo çözümünü üretmesini istediğimizde, aşağıdaki kodu bize verecektir. Kodda, <b>numpy</b> paketinde yer alan <b>random</b> isimli sınıf ait <b>shuffle()</b> fonksiyonunun mânâsı "karıştır" veya daha doğru bir tabirle "(kartları) <b>kar</b>(ıştır)" demektir. Kodun koşturulmasını ve açıklamasını izlemek için <a href="https://www.youtube.com/watch?v=UgJL_WuztS4">tıklayınız</a>.</p>
+<p align="justify">ChatGPT'ye bu problemi verip bize Monte Carlo çözümünü üretmesini istediğimizde, aşağıdaki kodu bize verecektir. Kodda, <b>numpy</b> paketinde yer alan <b>random</b> isimli sınıfa ait <b>shuffle()</b> fonksiyonunun mânâsı "karıştır" veya daha doğru bir tabirle "(kartları) <b>kar</b>(ıştır)" demektir. Kodun koşturulmasını ve açıklamasını izlemek için <a href="https://www.youtube.com/watch?v=UgJL_WuztS4">tıklayınız</a>.</p>
 
 <b>kardesler_yanyana.py</b>
 
@@ -32,11 +32,11 @@ $$P(Y) = \frac{2}{90}+\frac{16}{90} = \frac{18}{90} = 0.2$$
 import numpy as np
 
 def monte_carlo_simulation(num_trials=100000):
-    people = ["K1", "K2"] + list(range(1, 9))  # Kardeşler + 8 kişi
+    people =  list(range(1, 9)) + ["K1", "K2"]  # 8 kişi + Kardeşler
     success_count = 0
 
     for _ in range(num_trials):
-        np.random.shuffle(people)  # Rastgele sırala
+        np.random.shuffle(people) # Rastgele sırala
         # Kardeşler yan yana mı?
         for i in range(len(people) - 1):
             if (people[i] == "K1" and people[i + 1] == "K2") or (people[i] == "K2" and people[i + 1] == "K1"):
