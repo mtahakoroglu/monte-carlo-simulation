@@ -5,7 +5,7 @@ Bugüne kadar Monte Carlo simülasyonları yaparken <b>numpy</b> paketinin <b>ra
 
 <p align="justify"><b>💻 ChatGPT</b><br>Selam! Güzel bir soru. Aşağıda, hem matematiksel olarak çözülebilen hem de normal dağılım kullanarak Monte Carlo simülasyonu ile yaklaşık olarak bulunabilen bir olasılık sorusu veriyorum:</p>
 
-<p align="justify"><b>📝 Soru:</b> Bir fabrika, ürettiği vidaların 🔩 çaplarının $N(\mu, \sigma^2) = N(5, 0.12)$ (yani ortalama 5mm, standart sapma 0.1mm olan normal dağılım) ile dağıldığını iddia etmektedir. Bir müşteri, çapı 4.9mm ile 5.1mm arasında olan vidaların kabul edilebilir olduğunu belirtmiştir. Buna göre fabrika tarafından üretilen vidaların müşteri tarafından kabul edilebilir olma olasılığı nedir?</p>
+<p align="justify"><b>📝 Soru:</b> Bir fabrika, ürettiği vidaların 🔩 çaplarının $N(\mu, \sigma^2) = N(5, 0.1^2)$ (yani ortalama 5mm, standart sapma 0.1mm olan normal dağılım) ile dağıldığını iddia etmektedir. Bir müşteri, çapı 4.9mm ile 5.1mm arasında olan vidaların kabul edilebilir olduğunu belirtmiştir. Buna göre fabrika tarafından üretilen vidaların müşteri tarafından kabul edilebilir olma olasılığı nedir?</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
