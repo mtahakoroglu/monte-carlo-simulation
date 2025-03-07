@@ -51,11 +51,11 @@ $$P(-1 \leq Z \leq 1) = 0.8413 - 0.1587 = 0.6826$$
 import numpy as np
 
 # Monte Carlo simülasyonu
-num_samples = 100000  # Örnek sayısı
-vidalar = np.random.normal(loc=5, scale=0.1, size=num_samples)
+n = 100000  # Örnek sayısı
+vidalar = np.random.normal(loc=5, scale=0.1, size=n)
 
 # Kabul edilen vidaların oranını hesapla
-kabul_edilen = np.sum((vidalar >= 4.9) & (vidalar <= 5.1)) / num_samples
+kabul_edilen = np.sum((vidalar >= 4.9) & (vidalar <= 5.1)) / n
 
 print(f"Kabul edilen vida oranı: {kabul_edilen:.4f}")
 ```
@@ -80,10 +80,10 @@ import scipy.stats as stats
 # Parameters of the normal distribution
 mu = 5       # Mean
 sigma = 0.1  # Standard deviation
-num_samples = 100000  # Monte Carlo sample size
+n = 100000  # Monte Carlo sample size
 
 # Generate Monte Carlo samples
-samples = np.random.normal(mu, sigma, num_samples)
+samples = np.random.normal(mu, sigma, n)
 
 # Plot histogram of the Monte Carlo samples
 plt.hist(samples, bins=50, density=True, alpha=0.5, label="Monte Carlo Samples", color="blue")
@@ -111,7 +111,22 @@ plt.grid()
 plt.show()
 ```
 
-<img src="figure/screws.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="500" height="auto">
+<p align="justify">Burada kodda <b>scipy</b> isimli paketin de yer aldığını görüyoruz. Eğer bu paket bizde yüklü değilse</p>
+
+```
+pip install scipy
+```
+
+<p align="justify">komutuyla yükleyip yukarıdaki kodu koşturabiliriz. Aşağıda değişik örnek sayıları için MCS sonuçlarını görebilirsiniz.</p>
+
+| n = 100 | n=1,000 |
+| :--: | :--: |
+| <img src="figure/screws_n_100.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="%100" height="auto"> | <img src="figure/screws_n_1000.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="%100" height="auto"> |
+
+| n = 10,000 | n=100,000 |
+| :--: | :--: |
+| <img src="figure/screws_n_10000.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="%100" height="auto"> | <img src="figure/screws_n_100000.png" alt="Vidaların Kabul Edilebilirliği Problemi Grafiksel Yaklaşım" width="%100" height="auto"> |
+
 
 <h3>🔍 Grafiğin Açıklaması</h3>
 
