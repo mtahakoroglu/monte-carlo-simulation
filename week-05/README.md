@@ -11,7 +11,7 @@ Bugüne kadar Monte Carlo simülasyonları yaparken <b>numpy</b> paketinin <b>ra
 
 <p align="justify">Vidaların çapı</p>
 
-$$X \sim N(5,0.12)$$ 
+$$X \sim N(5, 0.1^2)$$ 
 
 <p align="justify">dağılımıyla modellendiği için, standart normal değişkene dönüştürelim:</p>
 
