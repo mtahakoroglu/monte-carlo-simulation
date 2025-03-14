@@ -41,15 +41,15 @@ $$f(x) = \lambda e^{-\lambda x}$$
 
 <p align="justify">Yâni, $P(X<3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
 
-$$P(X<x) = 1−e^{-\lambda x}$$
+$$P(X<x) = 1 - e^{-\lambda x}$$
 
 <p align="justify">verilen değerleri yerine koyarsak:</p>
 
-$$P(X<3) = 1−e^{−\frac{1}{2}3}$$
+$$P(X<3) = 1 - e^{-\frac{1}{2} \cdot 3}$$
 
-$$P(X<3) = 1−e^{−1.5}$$
+$$P(X<3) = 1 - e^{-1.5}$$
 
-$$P(X<3) \approx 1−0.2231$$
+$$P(X<3) \approx 1 - 0.2231$$
 
 $$P(X<3) \approx 0.7769$$
 
