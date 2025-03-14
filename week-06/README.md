@@ -41,7 +41,7 @@ $$f(x) = \lambda e^{-\lambda x}$$
 
 <p align="justify">Yâni, $P(X\lt3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
 
-$$P(X<x) = 1 - e^{-\lambda x}$$
+$$P(X\ltx) = 1 - e^{-\lambda x}$$
 
 <p align="justify">verilen değerleri yerine koyarsak:</p>
 
