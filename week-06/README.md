@@ -22,7 +22,7 @@ $$f(x) = \lambda e^{-\lambda x}$$
 
 <p align="justify">Üstel dağılımın olaylar arasındaki bekleme süresini modellediğini unutmayalım. Yani burada X, iki çağrı arasındaki süreyi (örneğin, bir çağrı geldikten sonra sonraki çağrıya kadar geçen süreyi) temsil ediyor.</p>
 
-<p align="justify">Bu durumda, $P(X<3)$ ifadesi "Çağrılar arasındaki sürenin 3 dakikadan kısa olma olasılığı" manasına gelir. Yâni, "bir çağrıdan sonra 3 dakika içinde yeni bir çağrı gelme olasılığı" olarak yorumlanır.</p>
+<p align="justify">Bu durumda, $P(X\lt3)$ ifadesi çağrılar arasındaki sürenin 3 dakikadan kısa olma olasılığı anlamına gelir. Yâni, bir çağrıdan sonra 3 dakika içinde yeni bir çağrı gelme olasılığı olarak yorumlanır.</p>
 
 <p align="justify">Özet olarak:</p>
 <ul>
@@ -33,13 +33,13 @@ $$f(x) = \lambda e^{-\lambda x}$$
 <p align="justify">Yani, λ çağrı sıklığını belirleyen bir parametredir. Bu ön bilgiden sonra sorumuza geçelim.</p>
 
 
-<h3>📝 Çağrı Merkezi Sorusu (Üstel Dağılım ve Olasılık Hesabı (λ=0.5)</h3>
+<h3>📝 Çağrı Merkezi Sorusu (Üstel Dağılım ve Olasılık Hesabı</h3>
 
 <p align="justify">Bir çağrı merkezine gelen çağrılar üstel dağılıma göre dağılmaktadır. Çağrıların geliş oranı λ=0.5 çağrı/dakika olarak bilinmektedir. Buna göre, bir çağrıyı yanıtladıktan sonra sonraki çağrının gelme süresinin 3 dakikadan kısa olma olasılığını hesaplayınız.</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
-<p align="justify">Yâni, $P(X<3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
+<p align="justify">Yâni, $P(X\lt3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
 
 $$P(X<x) = 1 - e^{-\lambda x}$$
 
