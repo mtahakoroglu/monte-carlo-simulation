@@ -39,10 +39,9 @@ $$f(x) = \lambda e^{-\lambda x}$$
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
-<p align="justify">Yani, $P(X<3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
+<p align="justify">Yâni, $P(X<3)$ olasılığını hesaplamamız gerekiyor. Üstel dağılımın kümülatif dağılım fonksiyonu (CDF):</p>
 
-$$P(X<x)=1−e^{-λx}$$
-
+$$P(X<x) = 1−e^{-\lambda x}$$
 
 <p align="justify">verilen değerleri yerine koyarsak:</p>
 
