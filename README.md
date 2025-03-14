@@ -31,3 +31,5 @@ fizik gibi alanlarda kullanılır.</p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-03">Hafta 3: 🧑‍🤝‍🧑 İki kardeşin yanyana gelme olasılığı</a> | <a href="https://www.youtube.com/watch?v=UgJL_WuztS4">video</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-04">Hafta 4: 💻 Uygulama (LAB)</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-05">Hafta 5: 🔩 Vidaların Kabul Edilebilirlik Aralığı (Normal Dağılım)</a> | <a href="https://www.youtube.com/watch?v=qygabAtODsY">video</a></p>
+<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-06">Hafta 6: ☎️ Çağrı Bekleme Süreleri (Üstel Dağılım)</a> | <a href="https://www.youtube.com/watch?v=qygabAtODsY">video</a></p>
+<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-07">Hafta 7: 📝 Ara Sınav Örneği</a> | <a href="https://www.youtube.com">video</a></p>
