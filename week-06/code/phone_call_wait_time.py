@@ -30,7 +30,7 @@ plt.plot(x_vals, exponential_pdf(x_vals, lambd), 'r', lw=2, label='Teorik PDF')
 plt.fill_between(x_fill, exponential_pdf(x_fill, lambd), alpha=0.3, color='g', label='P(X < 3)')
 plt.xlabel('Bekleme Süresi (dakika)', fontsize=16)
 plt.ylabel('Olasılık Yoğunluk Fonksiyonu (PDF)', fontsize=16)
-plt.title(f'Üstel Dağılım: P(X < 3)\nTeorik: {P_X_less_3_theoretical:.3f}, Empirik (n=10000): {P_X_less_3_empirical:.3f}', fontsize=16)
+plt.title(f'Üstel Dağılım: P(X < 3)\nTeorik: {P_X_less_3_theoretical:.3f}, Empirik (n={n}): {P_X_less_3_empirical:.3f}', fontsize=16)
 plt.grid(True, linestyle='--')
 plt.tight_layout()
 # plt.subplots_adjust(left=0.11)  # Increase left margin specifically

@@ -5,7 +5,7 @@ Bugüne kadar Monte Carlo simülasyonları yaparken <b>numpy</b> paketinin <b>ra
 
 <p align="justify"><b>💻 ChatGPT</b><br>Selam! Bir çağrı merkezinde müşteri hizmetlerine gelen çağrılar arasındaki süre üstel dağılıma çok uygun bir örnektir. Üstel dağılımın olasılık yoğunluk fonksiyonu (pdf) şu şekilde tanımlanır:</p>
 
-$$f(x) = \lambda e^{-\lambda x}$$
+$$f_X(x) = \lambda e^{-\lambda x}$$
 
 <p align="justify">Burada:</p>
 <ul>
