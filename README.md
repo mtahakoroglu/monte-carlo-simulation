@@ -33,3 +33,4 @@ fizik gibi alanlarda kullanılır.</p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-05">Hafta 5: 🔩 Vidaların Kabul Edilebilirlik Aralığı (Normal Dağılım)</a> | <a href="https://www.youtube.com/watch?v=qygabAtODsY">video</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-06">Hafta 6: ☎️ Çağrı Bekleme Süreleri (Üstel Dağılım)</a> | <a href="https://www.youtube.com/watch?v=-0Tr9FeRFF8">video</a></p>
 <p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/week-07">Hafta 7: 📝 Ara Sınav Örneği</a> | <a href="https://www.youtube.com/watch?v=-0Tr9FeRFF8">video</a></p>
+<p align="justify"><a href="https://github.com/mtahakoroglu/monte-carlo-simulation/tree/main/binom dağılımı">📐 Binom Dağılımı</a> | <a href="https://www.youtube.com">video (to be uploaded)</a></p>
