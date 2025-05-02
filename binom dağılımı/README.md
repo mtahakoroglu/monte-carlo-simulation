@@ -48,11 +48,11 @@ N = 10_000  # Simülasyon sayısı
 n = 5
 p = 0.7
 
-# 10 atışlık denemeler
+# n=5 atışlık denemeler
 shots = np.random.rand(N, n) < p  # True = başarılı
 success_counts = np.sum(shots, axis=1)
 
-# Kaçında tam 3 başarı var?
+# Kaçında tam k=3 başarı var?
 prob_sim = np.mean(success_counts == 3)
 print(f"Monte Carlo P(3 başarılı) ≈ {prob_sim:.5f}")
 ```
