@@ -31,7 +31,7 @@ import math
 p, k, n = 0.7, 3, 5
 
 # Binom dağılımı ile hesapla
-prob = math.comb(n, k) * p**k * (1 - p)**(n - k)
+prob = math.comb(n,k) * p**k * (1-p)**(n-k)
 print(f"P(X = {3}) = {prob:.5f}")
 ```
 
@@ -66,6 +66,10 @@ print(f"Monte Carlo P(3 başarılı) ≈ {prob_sim:.5f}")
 <li>P(X = 5): Alperen'in serbest atışların hepsini atma olasılığı nedir?</li>
 
 <li>P(X ≥ 3): Alperen'in serbest atışlardan en az 3 tanesini atma olasılığı nedir?</li>
+
+$$P(X \geq 3) = \sum_{k=3}^n \binom{5}{k} p^k (1-p)^{n-k} = \sum_{k=3}^5 \binom{5}{k} 0.7^k (0.3)^{5-k}$$
+
+$$P(X \geq 3) = \binom{5}{3} 0.7^3 (0.3)^{2} + \binom{5}{4} 0.7^4 (0.3)^{1} + \binom{5}{5} 0.7^5 (0.3)^{0}$$
 
 ```
 # en az üç serbest atışı sayı yapma olasılığı

@@ -37,7 +37,6 @@ print(f"Monte Carlo P(5 başarılı) ≈ {prob_sim:.5f}")
 # en az üç serbest atışı sayı yapma olasılığı
 k = 3
 prob = math.comb(n,3)*p**3*(1-p)**2 + math.comb(n,4)*p**4*(1-p)**1 + math.comb(n,5)*p**5*(1-p)**0
-# prob = 1 - stats.binom.cdf(k - 1, n, p)
 print(f"P(X ≥ {k}) = {prob:.5f}")
 # 5 atışlık denemeler
 shots = np.random.rand(N, n) < p  # True = başarılı
