@@ -88,3 +88,5 @@ print(f"Monte Carlo P(≥ {k} başarılı) ≈ {prob_sim:.5f}")
 
 <li>P(2 ≤ X ≤ 4): 2 ile 4 arasında başarılı olma olasılığı nedir?</li>
 </ul>
+
+<p align="justify">İlgili videoyu izlemek için <a href="https://www.youtube.com/watch?v=iAxJOqpEqNA">tıklayınız</a>.</p>
