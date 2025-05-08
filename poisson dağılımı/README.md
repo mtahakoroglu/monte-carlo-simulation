@@ -1,34 +1,13 @@
-<h2>Poisson Dağılımı – Belirli bir sürede gelen çağrı sayısını hesaplama  ☎️</h2>
+<h2>Poisson Dağılımı – Birim sürede gelen belirli sayıdaki çağrı sayısı ihtimalini hesaplama  ☎️</h2>
 
-<p align="justify">Poisson dağılımı olasılık yoğunluk fonksiyonu (pdf) şu şekilde tanımlanır:</p>
+<p align="justify">Poisson dağılımı olasılık kütle fonksiyonu (pmf) şu şekilde tanımlanır:</p>
 
 $$P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!}$$
 
-<p align="justify">Burada:</p>
-<ul>
-    <li>λ dağılımda beklenen çağrı sayısını ifade eder (yâni birim zamanda, mesela 1 saatte, ortalama kaç çağrı geldiğini ifade eder).</li>
-    <li>k ise birim zamanda oluşmasını istediğimiz çağrı sayısıdır.</li>
-</ul>
-
-<p align="justify">Oran parametresi λ'yı daha iyi anlayalım.</p>
-
-<ul>
-    <li>Eğer λ=2 ise, bu bir saatte ortalama 2 çağrı geldiğini gösterir.</li>
-    <li>Eğer λ=5 olsaydı, bir saatte ortalama 5 çağrı geldiğini ifade ederdi.</li>
-</ul>
-
-<p align="justify">Özet olarak:</p>
-<ul>
-    <li>λ büyükse → Çağrılar daha sık geliyor.</li>
-    <li>λ küçükse → Çağrılar daha seyrek geliyor.</li>
-</ul>
-
-<p align="justify">Yani, λ çağrı sıklığını belirleyen bir parametredir. Bu ön bilgiden sonra sorumuza geçelim.</p>
-
 <h3>📝 Çağrı Merkezi Sorusu (Poisson Dağılım ve Olasılık Hesabı</h3>
 
-<p align="justify">Bir çağrı merkezinde, ortalama olarak saatte 4 çağrı gelmektedir. Çağrıların gelişi Poisson dağılımına uymaktadır.
-Buna göre bir saatte tam olarak 6 çağrı gelme olasılığı nedir?</p>
+<p align="justify">Bir çağrı merkezinde, ortalama olarak saatte λ=4 çağrı gelmektedir. Çağrıların gelişi Poisson dağılımına uymaktadır.
+Buna göre bir saatte tam olarak k=6 çağrı gelme olasılığı nedir?</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
