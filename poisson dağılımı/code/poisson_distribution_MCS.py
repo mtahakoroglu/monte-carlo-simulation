@@ -3,7 +3,7 @@ import numpy as np
 # Parametreler
 lambda_ = 4
 k = 6
-num_trials = 10_000
+num_trials = 1_000
 
 # Poisson örnekleri üret
 samples = np.random.poisson(lam=lambda_, size=num_trials)

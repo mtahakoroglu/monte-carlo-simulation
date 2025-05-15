@@ -5,7 +5,7 @@ from scipy.stats import poisson
 
 # Parametreler
 lambda_ = 4
-num_trials = 10_000
+num_trials = 100_000
 max_k = 15  # Görselleştirme için k aralığı
 
 # PMF değerleri (Teorik)
