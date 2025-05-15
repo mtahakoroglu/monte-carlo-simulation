@@ -1,23 +1,20 @@
 <h2>Poisson Dağılımı – Birim sürede gelen belirli sayıdaki çağrı sayısı ihtimalini hesaplama  ☎️</h2>
 
-<p align="justify">Poisson dağılımı olasılık kütle fonksiyonu (pmf) şu şekilde tanımlanır:</p>
-
-$$P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!}$$
-
 <h3>📝 Çağrı Merkezi Sorusu (Poisson Dağılım ve Olasılık Hesabı</h3>
 
-<p align="justify">Bir çağrı merkezinde, ortalama olarak saatte λ=4 çağrı gelmektedir. Çağrıların gelişi Poisson dağılımına uymaktadır.
-Buna göre bir saatte tam olarak k=6 çağrı gelme olasılığı nedir?</p>
+<p align="justify">Bir çağrı merkezinde, ortalama olarak saatte λ=4 çağrı gelmektedir. Bilindiği gibi çağrıların gelişi Poisson dağılımıyla modellenmektedir. Buna göre, bir saatte tam olarak k=6 çağrı gelme olasılığı nedir?</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
+<p align="justify">Poisson dağılımı olasılık kütle fonksiyonu (probability mass function - pmf) şu şekilde tanımlanır:</p>
+
 $$P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!}$$
 
-<p align="justify">λ=4 ve k=6 verilen değerlerini yerine koyarsak:</p>
+<p align="justify">λ=4 ve k=6 verilen değerlerini pmf'de yerine koyarsak</p>
 
 $$P(X=6) = \frac{e^{-4} 4^6}{6!}$$
 
-<p align="justify">Hesap makinesi kullanmak yerine aşağıdaki Python script ile hızlıca sonucu P(X=6) = 0.1042 buluruz.</p>
+<p align="justify">eşitliğini elde ederiz. Hesap makinesi kullanmak yerine aşağıdaki Python script ile hızlıca sonucu P(X=6) = 0.1042 bulabiliriz.</p>
 
 <b>poisson_distribution.py</b>
 
@@ -33,7 +30,7 @@ pmf = (math.exp(-lambda_) * (lambda_ ** k)) / math.factorial(k)
 print(f"Teorik Olasılık: P(X={k}) = {pmf:.4f}")
 ```
 
-<p align="justify">Yani, bu çağrı merkezine bir saatte 6 çağrı gelme olasılığı yaklaşık %10.42'dir.</p>
+<p align="justify">Yâni, bu çağrı merkezine bir saatte 6 çağrı gelme olasılığı yaklaşık olarak %10.42'dir.</p>
 
 <h3>Nümerik Çözüm 💻📊🧮</h3>
 
@@ -49,7 +46,7 @@ lambda_ = 4
 k = 6
 num_trials = 10_000
 
-# Poisson örnekleri üret
+# Poisson dağılımından örnekler üret
 samples = np.random.poisson(lam=lambda_, size=num_trials)
 
 # K = 6 olanları say
@@ -93,6 +90,6 @@ plt.grid(True)
 plt.show()
 ```
 
-<p align="justify">Yukarıdaki kodu koşturunca aşağıdaki örnek sonucu elde ederiz.</p>
+<p align="justify">Yukarıdaki kodu koşturunca aşağıdaki örnek sonucu elde ettik.</p>
 
 <img src="figure/poisson_distribution_MCS_plots.png" alt="saatte ortalama 4 çağrı bir yere k=6 çağrı olasılığı" width="%100" height="auto">
