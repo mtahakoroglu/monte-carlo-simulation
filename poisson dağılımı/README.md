@@ -1,8 +1,8 @@
 <h2>Poisson Dağılımı – Birim sürede gelen belirli sayıdaki çağrı sayısı ihtimalini hesaplama  ☎️</h2>
 
-<h3>📝 Çağrı Merkezi Sorusu (Poisson Dağılım ve Olasılık Hesabı</h3>
+<h3>📝 Çağrı Merkezi Sorusu (Poisson Dağılım ve Olasılık Hesabı)</h3>
 
-<p align="justify">Bir çağrı merkezinde, ortalama olarak saatte λ=4 çağrı gelmektedir. Bilindiği gibi çağrıların gelişi Poisson dağılımıyla modellenmektedir. Buna göre, bir saatte tam olarak k=6 çağrı gelme olasılığı nedir?</p>
+<p align="justify">Soru: Bir çağrı merkezinde, ortalama olarak saatte λ=4 çağrı gelmektedir. Bilindiği gibi çağrıların gelişi Poisson dağılımıyla modellenmektedir. Buna göre, bir saatte tam olarak k=6 çağrı gelme olasılığı nedir?</p>
 
 <h3>Matematiksel Çözüm 🤔💭📊🧮📝</h3>
 
